@@ -1,0 +1,26 @@
+img.tpb-magnet
+{
+	
+	vertical-align: middle;
+	margin: 0 6px;
+	width:18px;
+	height:18px;
+		
+}
+
+div.modDiv a.tpb-link
+{
+	font-size:10px;
+}
+
+.modDiv
+{
+	position:absolute;
+	right:5px;
+	bottom:20px;
+}
+
+div.ep.modded
+{
+	position:relative;
+}

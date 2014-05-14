@@ -1,0 +1,29 @@
+{
+  "name": "TtT : TV to Torrent",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add direct torrent links to TV Calendar",
+  
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  
+  "permissions": [
+    "tabs", "http://*/*","https://*/*"
+  ],
+  
+  
+  "content_scripts": [
+    {
+	   "run_at": "document_idle",
+	   "css":["style.css"],
+      "matches": ["http://www.pogdesign.co.uk/cat/*"],
+      "js": ["jquery-1.7.2.min.js", "content.js"]
+    }
+  ],
+  
+  "web_accessible_resources": [
+       "magnet-icon.png"
+     ]
+  
+}
