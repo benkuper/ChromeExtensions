@@ -22,7 +22,7 @@ function mod()
 		
 		$(this).addClass("modded");
 		
-		var epName = $(this).find("p a").first().text();
+		var epName = $(this).find("p a").first().text().replace("!","");
 		var tLink = $("<a href='http://thepiratebay.se/search/"+epName+"/0/7/0'>TPB</a>");
 		
 		var epNumber = "";
