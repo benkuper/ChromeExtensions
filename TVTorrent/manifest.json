@@ -23,7 +23,8 @@
   ],
   
   "web_accessible_resources": [
-       "magnet-icon.png"
+       "magnet-icon.png",
+	   "kat16.png"
      ]
   
 }
